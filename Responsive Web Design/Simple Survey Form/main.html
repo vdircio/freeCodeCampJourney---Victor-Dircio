@@ -1,0 +1,67 @@
+<!-- 
+Hello Camper!
+Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+- The freeCodeCamp Team 
+-->
+<main id="main">
+  <header>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  </header>
+  <form id="survey-form">
+    <div class="form-group">
+      <label id="name-label" for="name">Name</label><br>
+      <input type="text" id="name" name="name" placeholder="Enter your name" class="form-control" required><br>
+    </div>
+    <div class="form-group">
+      <label id="email-label" for="email">Email</label><br>
+      <input type="email" id="email" name="email" placeholder="Enter your email" class="form-control" required><br>
+    </div>
+    <div class="form-group">
+      <label id="number-label" for="age">Age</label><br>
+      <input type="number" id="number" name="age" placeholder="Enter your age" min="10" max="99" class="form-control"><br>
+    </div>
+    <div class="form-group">
+    <p>Role</p>
+    <select id="dropdown" name="role" class="form-control" required>
+      <option disabled selected value>Select Current Value</option>
+      <option value="student">Student</option>
+      <option value="job">Job</option>
+      <option value="bum">Bum</option>
+      <option value="pnts">Prefer Not to Say</option>
+      <option value="other">Other</option>
+    </select><br>
+    </div>
+    <div class="form-group"> 
+    <p>Where did you find out about us?</p>
+    <input type="radio" id="choice1" name="radio" value="choice1" class="rad">
+    <label for="choice1">Facebook/Instagram</label><br>
+    <input type="radio" id="choice2" name="radio" value="choice2" class="rad">
+    <label for="choice2">Snapchat</label><br>
+    <input type="radio" id="choice3" name="radio" value="choice3" class="rad">
+    <label for="choice3">School email</label><br>
+    <input type="radio" id="choice4" name="radio" value="choice4" class="rad">
+    <label for="choice4">Other</label><br>
+    </div>
+    <div class="form-group">
+    <p>Check all that Apply</p>
+    <input type="checkbox" id="cb1" name="cb1" value="cb1" class="cbx">
+    <label for="cb1">Interested in this</label><br>
+    <input type="checkbox" id="cb2" name="cb2" value="cb2" class="cbx">
+    <label for="cb2">Interested in that</label><br>
+    <input type="checkbox" id="cb3" name="cb3" value="cb3" class="cbx">
+    <label for="cb3">Interested in this that</label><br>
+    <input type="checkbox" id="cb4" name="cb4" value="cb4" class="cbx">
+    <label for="cb4">Interested in yes no maybe so</label><br>
+    <input type="checkbox" id="cb5" name="cb5" value="cb5" class="cbx">
+    <label for="cb5">other</label><br>
+    </div>
+    <div class="form-group">
+    <p>Extra Comments?</p>
+    <textarea id="text-area" name="textarea" placeholder="Enter your comments here"></textarea><br>
+    </div>
+    <div class="form-group">
+    <button type="submit" id="submit">Enter</button>
+    </div>
+  </form>
+</main>
