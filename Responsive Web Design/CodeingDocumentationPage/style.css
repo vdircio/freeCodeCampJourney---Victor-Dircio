@@ -1,0 +1,117 @@
+body {
+  font-family: "Barlow";
+  font-size: 21px;
+  color: black;
+  background-color: #EEEFCF;
+  display: flex;
+}
+
+main {
+  position: absolute;
+  padding-left: 100px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin-left: 270px;
+  line-height: 1.9;
+}
+
+nav {
+  position: fixed;
+  width: 230px;
+  height: 100%;
+  line-height: 1.8;
+  padding-right: 10px;
+  margin: 50px;
+  border-right: solid;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+nav ul {
+  margin-top: 80px;
+  list-style: none;
+  width: 100%;
+  line-height: 4;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+nav h3 {
+  margin-left: 30px;
+  margin-top: 0px;
+  position: fixed;
+  background-color: #EEEFCF;
+  line-height: 3;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  curser: pointer;
+}
+
+#title {
+  backgroundcolor: #999;
+  width: 100%;
+}
+
+#lb {
+  height: 1px;
+  width: 80%;
+  background-color: black;
+}
+
+#lb_ {
+  position: fixed;
+  margin-top: 70px;
+  height: 1px;
+  width: 8%;
+  background-color: black;
+}
+
+main p, li{
+  width: 90%;
+}
+
+code {
+  display: block;
+  white-space: preline;
+  width: 85%;
+  background-color: #DADCBD;
+  color: black;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: auto;
+  font-size: 18px;
+}
+
+@media (max-width: 1300px) {
+  body {
+    font-size: 19px;
+  }
+  nav {
+    margin-right: 10px;
+    width: 150px;
+  }
+  main {
+    margin-left: 150px;
+  }
+}
+
+@media (max-width: 900px) {
+  body {
+    font-size: 16px;
+  }
+  nav {
+    margin-right: 0px;
+    margin-left: 40px;
+    width: 80px;
+    border-right: none;
+  }
+  nav h3 {
+    margin-left: 15px;
+  }
+  main {
+    margin-left: 100px;
+  }
+}
